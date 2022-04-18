@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #9C835F;
+}
+
+.nav{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.nav p{
+    padding-left: 10px;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav i{
+    padding-left: 10px;
+    position: relative;
+    top: 23px;
+}
+
+.nav i:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 70%;
+    height: 80vh;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 5vh;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.keterangan{
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+    margin-left: 20%;
+}
+
+.box{
+    width: 141px;
+    height: 100px;
+    justify-content: center; 
+    position: absolute;
+    top: 39%;
+}
+
+.sign:hover{
+    cursor: pointer;
+    background-color: rgb(203, 206, 206);
+    border-radius: 10px;
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.ulang:hover{
+    cursor: pointer;
+}
+
+.bacgroundSign{
+    background-color: rgb(203, 206, 206);
+    border-radius: 10px;
+    
+}
+
+.win{
+    background-color: #4C9654;
+    border-radius: 5px;
+    transform: rotate(-20deg);
+}
+
+
+
+
+.keterangan2{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(245, 241, 241);
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.text{
+    content: "COM ";
+}
